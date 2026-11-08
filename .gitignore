@@ -1,0 +1,24 @@
+# Secrets and tokens
+.env
+.env.*
+!.env.example
+access_token.txt
+access_token.json
+token.json
+token_meta.json
+token_*.json
+*.token
+.streamlit/secrets.toml
+
+# Caches and logs
+cache/
+logs/
+presets/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
